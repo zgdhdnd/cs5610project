@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Word Puzzle by Karl — a simple crossword and portfolio.">
+  <title>Puzzle | Word Puzzle by Karl</title>
+  <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../common.css">
+  <link rel="stylesheet" href="puzzle.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../">Word Puzzle by Karl</a>
+    <nav class="site-nav" aria-label="Main">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="../index.html">Home</a></li>
+        <li><a class="nav-link" href="./puzzle.html" aria-current="page">Puzzle</a></li>
+        <li><a class="nav-link" href="../about/about.html">About</a></li>
+        <li><a class="nav-link" href="../contact/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>7×7 Crossword</h1>
+    <p class="lead">A simple seven-by-seven crossword. Choose a square and enter one letter. Use Tab to move between squares.</p>
+
+    <section class="puzzle" aria-labelledby="puzzle-heading">
+      <h2 id="puzzle-heading" class="visually-hidden">Puzzle</h2>
+
+      <form class="puzzle__play" aria-label="Crossword grid">
+        <div class="board" role="group" aria-label="7 by 7 crossword grid">
+          <label class="cell"><span class="cell__num" aria-hidden="true">1</span><input type="text" maxlength="1" pattern="[Cc]" required placeholder=" " autocomplete="off" aria-label="Row 1, column 1, 1 Across, 1 Down"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Oo]" required placeholder=" " autocomplete="off" aria-label="Row 1, column 2, 1 Across"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Ll]" required placeholder=" " autocomplete="off" aria-label="Row 1, column 3, 1 Across"></label>
+          <label class="cell"><span class="cell__num" aria-hidden="true">2</span><input type="text" maxlength="1" pattern="[Uu]" required placeholder=" " autocomplete="off" aria-label="Row 1, column 4, 1 Across, 2 Down"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Mm]" required placeholder=" " autocomplete="off" aria-label="Row 1, column 5, 1 Across"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Nn]" required placeholder=" " autocomplete="off" aria-label="Row 1, column 6, 1 Across"></label>
+          <label class="cell"><span class="cell__num" aria-hidden="true">3</span><input type="text" maxlength="1" pattern="[Ss]" required placeholder=" " autocomplete="off" aria-label="Row 1, column 7, 1 Across, 3 Down"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Oo]" required placeholder=" " autocomplete="off" aria-label="Row 2, column 1, 1 Down"></label>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Nn]" required placeholder=" " autocomplete="off" aria-label="Row 2, column 4, 2 Down"></label>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Ii]" required placeholder=" " autocomplete="off" aria-label="Row 2, column 7, 3 Down"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Nn]" required placeholder=" " autocomplete="off" aria-label="Row 3, column 1, 1 Down"></label>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Kk]" required placeholder=" " autocomplete="off" aria-label="Row 3, column 4, 2 Down"></label>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Nn]" required placeholder=" " autocomplete="off" aria-label="Row 3, column 7, 3 Down"></label>
+          <label class="cell"><span class="cell__num" aria-hidden="true">4</span><input type="text" maxlength="1" pattern="[Tt]" required placeholder=" " autocomplete="off" aria-label="Row 4, column 1, 4 Across, 1 Down"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Uu]" required placeholder=" " autocomplete="off" aria-label="Row 4, column 2, 4 Across"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Rr]" required placeholder=" " autocomplete="off" aria-label="Row 4, column 3, 4 Across"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Nn]" required placeholder=" " autocomplete="off" aria-label="Row 4, column 4, 4 Across, 2 Down"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Ii]" required placeholder=" " autocomplete="off" aria-label="Row 4, column 5, 4 Across"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Nn]" required placeholder=" " autocomplete="off" aria-label="Row 4, column 6, 4 Across"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Gg]" required placeholder=" " autocomplete="off" aria-label="Row 4, column 7, 4 Across, 3 Down"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Rr]" required placeholder=" " autocomplete="off" aria-label="Row 5, column 1, 1 Down"></label>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Oo]" required placeholder=" " autocomplete="off" aria-label="Row 5, column 4, 2 Down"></label>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Ii]" required placeholder=" " autocomplete="off" aria-label="Row 5, column 7, 3 Down"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Oo]" required placeholder=" " autocomplete="off" aria-label="Row 6, column 1, 1 Down"></label>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Ww]" required placeholder=" " autocomplete="off" aria-label="Row 6, column 4, 2 Down"></label>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <div class="cell cell--block" aria-hidden="true"></div>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Nn]" required placeholder=" " autocomplete="off" aria-label="Row 6, column 7, 3 Down"></label>
+          <label class="cell"><span class="cell__num" aria-hidden="true">5</span><input type="text" maxlength="1" pattern="[Ll]" required placeholder=" " autocomplete="off" aria-label="Row 7, column 1, 5 Across, 1 Down"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Ee]" required placeholder=" " autocomplete="off" aria-label="Row 7, column 2, 5 Across"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Aa]" required placeholder=" " autocomplete="off" aria-label="Row 7, column 3, 5 Across"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Nn]" required placeholder=" " autocomplete="off" aria-label="Row 7, column 4, 5 Across, 2 Down"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Ii]" required placeholder=" " autocomplete="off" aria-label="Row 7, column 5, 5 Across"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Nn]" required placeholder=" " autocomplete="off" aria-label="Row 7, column 6, 5 Across"></label>
+          <label class="cell"><input type="text" maxlength="1" pattern="[Gg]" required placeholder=" " autocomplete="off" aria-label="Row 7, column 7, 5 Across, 3 Down"></label>
+        </div>
+        <p class="solved" role="status"><strong>Solved!</strong> Every letter is right.</p>
+        <button class="button button--secondary" type="reset">Clear grid</button>
+      </form>
+
+      <div class="clues">
+        <section aria-labelledby="across-heading">
+          <h3 id="across-heading">Across</h3>
+          <ol>
+            <li value="1">Vertical sections of text or supporting pillars (7)</li>
+            <li value="4">Changing direction or rotating (7)</li>
+            <li value="5">Resting at an angle rather than standing straight (7)</li>
+          </ol>
+        </section>
+
+        <section aria-labelledby="down-heading">
+          <h3 id="down-heading">Down</h3>
+          <ol>
+            <li value="1">The power to direct or manage something (7)</li>
+            <li value="2">Not yet identified or familiar (7)</li>
+            <li value="3">Making music with your voice (7)</li>
+          </ol>
+        </section>
+
+        <details class="reveal">
+          <summary>Reveal the solution</summary>
+          <h4>Across</h4>
+          <p>1 COLUMNS · 4 TURNING · 5 LEANING</p>
+          <h4>Down</h4>
+          <p>1 CONTROL · 2 UNKNOWN · 3 SINGING</p>
+        </details>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <p>© 2026 Karl Ma</p>
+</footer>
+</body>
+</html>
